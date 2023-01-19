@@ -6,8 +6,14 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js',
+        path: path.join(__dirname, 'build'),
+        filename: 'index.js',
+    },
+    resolve: {
+        alias: {
+            components: path.resolve(__dirname, 'src/components'),
+        },
+        extensions: ['.js', '.jsx'],
     },
     module: {
         rules: [
