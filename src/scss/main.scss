@@ -1,0 +1,13 @@
+
+
+.btn-primary {
+    background-color: $primary-color;
+    color: $background-secondary;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}

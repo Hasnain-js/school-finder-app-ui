@@ -1,6 +1,16 @@
+// @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import "./scss/variables.scss";
 @import "./scss/color.scss";
+@import "./scss/main.scss";
+@import "./components/Navbar/styles.scss";
 
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/DMSans-Regular.ttf');
+}
 
 body {
-    background: $body-color;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
 }
